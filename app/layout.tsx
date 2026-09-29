@@ -21,11 +21,20 @@ export const metadata: Metadata = {
     title: SEO.title,
     description: SEO.description,
     siteName: 'UXFoundery',
+    images: [
+      {
+        url: '/opengraph-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'UXFoundery',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: SEO.title,
     description: SEO.description,
+    images: ['/opengraph-image.png'],
   },
   manifest: '/site.webmanifest',
   icons: {

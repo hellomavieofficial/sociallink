@@ -54,7 +54,7 @@ The application uses React Hook Form with Zod validation, conditional Student/Pr
 
 ## Logo asset
 
-Place the official UXFoundery logo PNG at `public/logo.png`. The `Logo` component already references `/logo.png` with `next/image`. Do not fabricate or replace the official logo with an invented mark.
+The official UXFoundery logo PNG is stored at `public/logo.png` and is shared by the header and footer through the `Logo` component. Do not fabricate or replace the official logo with an invented mark.
 
 ## Domain deployment
 

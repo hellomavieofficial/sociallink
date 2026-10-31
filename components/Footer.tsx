@@ -1,6 +1,8 @@
 'use client';
 
 import Link from 'next/link';
+import { Logo } from './Logo';
+
 export function Footer() {
   return (
     <footer className="bg-white border-t border-lightGray py-12 md:py-16">
@@ -8,7 +10,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-10 md:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] md:gap-16">
           {/* Brand */}
           <div>
-            <p className="text-xl font-semibold tracking-tight">UXFoundery™</p>
+            <Logo />
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
               A global design community.
               <br />
